@@ -7,7 +7,7 @@ export default defineConfig({
     // Proxy API requests to Spring Boot backend (default Spring Boot port 8080)
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://facebookapi-8y44.onrender.com',
         changeOrigin: true,
         secure: false,
       }
